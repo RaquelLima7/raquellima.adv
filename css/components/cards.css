@@ -1,0 +1,34 @@
+.card-area img {
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid rgb(230,230,230);
+}
+
+.cards-area {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.card-area, h5 {
+    text-align: center;
+    color: #56460C;
+    font-weight: lighter;
+}
+
+.card-area:hover{
+    transform: scale(1.10);
+}
+
+@media(max-width: 992px) {
+    .cards-area {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+@media(max-width: 768px) {
+    .cards-area {
+      grid-template-columns: 1fr;
+    }
+  }

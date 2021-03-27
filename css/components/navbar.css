@@ -1,0 +1,18 @@
+#mainNavbar {
+    height: 80px;
+    background: white;
+    box-shadow: 0px -2px 10px rgba(0,0,0,0.3);
+}
+
+#mainNavbar img {
+    width: 150px;
+    height: 80px;
+  }
+
+#mainNavbar li {
+    font-weight: bolder;
+}
+
+#mainNavbar .nav-item:hover {
+   color: #202E77;
+}
