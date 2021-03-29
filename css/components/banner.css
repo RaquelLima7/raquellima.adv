@@ -25,13 +25,13 @@ h3 {
     font-weight: bolder;
 }
 
-.fa-whatsapp-square {
+.zap {
     color: #67D572;
     font-size: 1.5em;
     border-radius: 10%;
     cursor: pointer;
 }
 
-.fa-whatsapp-square:hover {
+.zap:hover {
     transform: scale(1.20);
 }

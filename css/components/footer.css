@@ -1,0 +1,12 @@
+footer {
+    background-color: #BFB38D;
+    /* color: white; */
+    padding: 10px 0px;
+	text-align: center;
+	margin: 5px auto;
+}
+
+footer .fab .fas {
+    background-color: #575140;
+    color: white;
+}
