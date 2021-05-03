@@ -4,8 +4,9 @@
 /* Importing components */
 @import url("components/navbar.css");
 @import url("components/banner.css");
-@import url("components/cards.css");
+@import url("components/area_atuacao.css");
 @import url("components/footer.css");
+@import url("components/valores.css");
 
 
 a {

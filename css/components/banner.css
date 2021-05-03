@@ -1,37 +1,17 @@
 .banner {
-    background-image: url(../../images/home.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 200px 0;
-    object-fit: cover;
-    opacity: 0.9;
-}
-
-h2 {
-    color: bisque;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(7, 7, 7);
-    font-size: 1.5em;
+background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(../../images/home.jpg);
+background-size: cover;
+background-position: center;
+padding: 200px 0;
+object-fit: cover;
+opacity: 0.9;
 }
 
 .text {
-    border: 1px solid;
-    background-color: rgba(255, 235, 205, 0.445);
+  color: white;
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: center;
+  text-shadow: black 0.2em 0.2em 0.2em;
 }
 
-h3 {
-    text-align: end;
-    color: #56460C;
-    font-weight: bolder;
-}
-
-.zap {
-    color: #67D572;
-    font-size: 1.5em;
-    border-radius: 10%;
-    cursor: pointer;
-}
-
-.zap:hover {
-    transform: scale(1.20);
-}
