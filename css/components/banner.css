@@ -15,3 +15,11 @@ opacity: 0.9;
   text-shadow: black 0.2em 0.2em 0.2em;
 }
 
+.banner-escritorio{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(../../images/escritorio-banner.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  object-fit: cover;
+  opacity: 0.9;
+}

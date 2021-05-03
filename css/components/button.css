@@ -1,0 +1,17 @@
+.whatsapp{
+  padding: .8rem 2.2rem;
+  border: 3px solid transparent;
+  border-radius: 4px;
+  background-color: #4DC558;
+  color: white;
+  font-weight: bold;
+}
+
+.whatsapp:hover{
+  padding: .8rem 2.2rem;
+  border: 1px solid #4DC558;
+  border-radius: 4px;
+  background-color: white;
+  color: #4DC558;
+  font-weight: bold;
+}

@@ -13,6 +13,8 @@
 
 .text-atuacao {
   text-align: center;
+  color: #61460D;
+  font-weight: bold;
 }
 
 .card-area, h5 {
