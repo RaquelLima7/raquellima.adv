@@ -8,6 +8,7 @@ footer {
 .item-footer {
   color:#575140;
   font-size: 30px;
+  cursor: pointer;
 }
 
 .item-footer:hover {
