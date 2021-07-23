@@ -15,3 +15,20 @@
   color: #4DC558;
   font-weight: bold;
 }
+
+.artigos{
+  background-color: #614610;
+  color: white;
+  font-weight: bold;
+}
+
+.artigos:hover{
+  background-color: white;
+  color: #614610;
+  border: 2px solid #614610;
+}
+
+.bg-assunto{
+  background-color: #614610;
+  color: white;
+}
