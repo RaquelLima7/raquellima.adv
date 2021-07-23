@@ -32,3 +32,21 @@ opacity: 0.9;
   object-fit: cover;
   opacity: 0.9;
 }
+
+.banner-civil{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(../../images/dir-civil.png);
+  background-size: cover;
+  background-position: center;
+  padding: 250px 0;
+  object-fit: cover;
+  opacity: 0.9;
+}
+
+.banner-tributario{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(../../images/dir-tributario.png);
+  background-size: cover;
+  background-position: center;
+  padding: 250px 0;
+  object-fit: cover;
+  opacity: 0.9;
+}
