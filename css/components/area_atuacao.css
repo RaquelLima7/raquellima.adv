@@ -27,11 +27,11 @@
   transform: scale(1.10);
 }
 
-.card{
+.card-artigo{
   margin: 0 auto;
 }
 
-.card:hover{
+.card-artigo:hover{
   transform: scale(1.02);
 }
 
