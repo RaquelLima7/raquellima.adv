@@ -14,6 +14,9 @@
 
         <!-- CSS -->
         <link rel="stylesheet" href="css/style.css">
+
+        <!-- AOS -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
     <!-- Navbar -->
@@ -63,14 +66,14 @@
 
 <!-- Start Banner Area -->
 		<section class="site-banner">
-			<div class="banner-consumidor">
+			<div class="banner-consumidor" data-aos="fade-up">
 			</div>
 		</section>
 <!-- End Banner Area -->
 
 <!-- Start Escritório Area -->
 		<section class="escritorio-area container mt-5">
-			<div class="text-escritorio">
+			<div class="text-escritorio" data-aos="fade-up">
 				<p>Nossa atuação em Direito do Consumidor trabalha com todas as questões relacionadas ao consumo de produtos e serviços em geral.
 				</p>
 				<p>Buscamos garantir ao consumidor os seus direitos, assegurando no que diz respeito às informações vinculadas à origem e à qualidade dos produtos e serviços fornecidos por determinada empresa, visto que infelizmente muitas empresas não cumprem a lei.
@@ -95,7 +98,7 @@
           <li>Qualidade de produtos e serviços;</li>
           <li>Entre outros.</li>
 					<div class="d-flex justify-content-center mt-5">
-						<button class="whatsapp">Agende uma Consulta Conosco <i class="fab fa-whatsapp"></i> </button>
+						<button class="whatsapp" data-aos="zoom-in">Agende uma Consulta Conosco <i class="fab fa-whatsapp"></i> </button>
 					</div>
 			</div>
 		</section>
@@ -126,5 +129,12 @@
   <!-- JS Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
     </script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
   </body>
 </html>
