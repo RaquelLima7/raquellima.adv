@@ -1,6 +1,6 @@
 const formcontact = document.querySelector('.formcontact');
 
-let nameClient = document.getElementById('nameClient');
+let name = document.getElementById('name');
 let email = document.getElementById('email');
 let phone = document.getElementById('phone');
 let subject = document.getElementById('subject');
@@ -10,7 +10,7 @@ formcontact.addEventListener('submit', (e)=>{
   e.preventDefault();
 
   let formData = { 
-    nameClient: nameClient.value,
+    name: name.value,
     email: email.value,
     phone: phone.value,
     subject: subject.value,
