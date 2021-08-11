@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const nodemail = require("nodemailer");
+const nodemailer = require("nodemailer");
 
 const PORT = process.env.PORT || 5000;
 
@@ -25,9 +25,9 @@ app.post('/', (req,res)=>{
   })
 
   const mailOptions = {
-    from: 'testnodemailer.adv@gmail.com',
+    from: req.body.email,
     to: 'testnodemailer.adv@gmail.com',
-    subject: `Mensagem de ${req.body.nameClient}: ${req.body.subject}.`, 
+    subject: `Mensagem de ${req.body.name}: ${req.body.subject}.`, 
     text: `${req.body.message} Entre em contato comigo pelo telefone: ${req.body.phone}.`, 
   }
 

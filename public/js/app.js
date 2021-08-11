@@ -24,7 +24,7 @@ formcontact.addEventListener('submit', (e)=>{
     console.log(xhr.responseText);
     if(xhr.responseText == 'success'){
       alert('E-mail enviado');
-      nameClient.value = '';
+      name.value = '';
       email.value = '';
       phone.value = '';
       subject.value = '';
