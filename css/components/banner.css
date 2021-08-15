@@ -7,6 +7,14 @@ object-fit: cover;
 opacity: 0.9;
 }
 
+.email {
+  background-image: url(../../images/contato.gif);
+  background-size: cover;
+  background-position: center;
+  padding: 300px 0;
+  object-fit: cover;
+}
+
 .text {
   color: white;
   font-size: 2rem;
