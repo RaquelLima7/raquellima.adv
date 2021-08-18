@@ -20,7 +20,6 @@
 - **HTML 5**
 - **Bootstrap 5.0**
 - **CSS 3**
-- **JavaScript**
   
 ## Raquel Lima Advocacia & Consultoria Jurídica
 
